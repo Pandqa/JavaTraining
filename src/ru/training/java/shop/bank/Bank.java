@@ -9,7 +9,7 @@ public class Bank {
 
     }
 
-    public void giveCredir() {
+    public void giveCredit() {
 
     }
 
