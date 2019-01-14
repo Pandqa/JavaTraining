@@ -1,4 +1,4 @@
 package ru.training.java.shop;
 
-public class Departament {
+public class Department {
 }

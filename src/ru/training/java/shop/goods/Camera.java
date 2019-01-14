@@ -76,4 +76,12 @@ public class Camera {
         this.departament = departament;
     }
 
+    public void on() {
+
+    }
+
+    public void off() {
+
+    }
+
 }

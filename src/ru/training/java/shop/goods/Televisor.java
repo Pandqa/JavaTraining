@@ -57,4 +57,12 @@ public class Televisor {
         this.departament = departament;
     }
 
+    public void on() {
+
+    }
+
+    public void off() {
+
+    }
+
 }

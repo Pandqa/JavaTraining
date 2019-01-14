@@ -36,4 +36,8 @@ public class Banker {
         this.bank = bank;
     }
 
+    public void sendRequest() {
+
+    }
+
 }

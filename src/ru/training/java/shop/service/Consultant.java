@@ -27,8 +27,5 @@ public class Consultant {
         this.deportament = deportament;
     }
 
-    public void sell() {
-
-    }
 
 }

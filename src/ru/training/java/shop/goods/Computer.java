@@ -87,4 +87,16 @@ public class Computer {
         this.departament = departament;
     }
 
+    public void on() {
+
+    }
+
+    public void off() {
+
+    }
+
+    public void loadOS() {
+
+    }
+
 }

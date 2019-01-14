@@ -26,7 +26,7 @@ public class Cashier {
         this.experience = experience;
     }
 
-    public void getMoney() {
+    public void sell() {
 
     }
 

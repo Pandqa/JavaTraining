@@ -96,4 +96,12 @@ public class Phone {
         this.departament = departament;
     }
 
+    public void on() {
+
+    }
+
+    public void off() {
+
+    }
+
 }
