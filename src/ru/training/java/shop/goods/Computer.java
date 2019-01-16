@@ -1,6 +1,6 @@
 package ru.training.java.shop.goods;
 
-public class Computer {
+public class Computer extends BaseGoods {
 
     private String name;
     private String motherboard;
@@ -85,14 +85,6 @@ public class Computer {
 
     public void setDepartament(String departament) {
         this.departament = departament;
-    }
-
-    public void on() {
-
-    }
-
-    public void off() {
-
     }
 
     public void loadOS() {

@@ -1,6 +1,6 @@
 package ru.training.java.shop.service;
 
-public class Consultant {
+public class Consultant extends BaseEmployee {
 
     private String name;
     private String deportament;

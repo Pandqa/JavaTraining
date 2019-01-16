@@ -1,6 +1,6 @@
 package ru.training.java.shop.goods;
 
-public class Phone {
+public class Phone extends BaseGoods {
 
     private String name;
     private int ram;

@@ -1,6 +1,6 @@
 package ru.training.java.shop.goods;
 
-public class Televisor {
+public class Televisor extends BaseGoods {
 
     private String name;
     private int diagonal;

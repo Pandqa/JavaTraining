@@ -1,6 +1,6 @@
 package ru.training.java.shop.goods;
 
-public class Camera {
+public class Camera extends BaseGoods {
 
     private String name;
     private int pixels;
@@ -74,14 +74,6 @@ public class Camera {
 
     public void setDepartament(String departament) {
         this.departament = departament;
-    }
-
-    public void on() {
-
-    }
-
-    public void off() {
-
     }
 
 }

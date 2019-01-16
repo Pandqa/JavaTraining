@@ -1,11 +1,11 @@
 package ru.training.java.shop.bank;
 
-public class Bank {
+public class BaseBank {
 
     private String name;
-    private String creaditDescription;
+    private String credrDescription;
 
-    public void CheckInfo(){
+    public void checkInfo() {
 
     }
 

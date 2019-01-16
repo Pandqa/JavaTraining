@@ -1,6 +1,6 @@
-package ru.training.java.shop.bank;
+package ru.training.java.shop.service;
 
-public class Banker {
+public class Banker extends BaseEmployee {
 
     private String name;
     private int experience;

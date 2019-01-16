@@ -1,6 +1,6 @@
 package ru.training.java.shop.service;
 
-public class Cashier {
+public class Cashier extends BaseEmployee {
 
     private String name;
     private int experience;

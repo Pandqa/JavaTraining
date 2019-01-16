@@ -1,11 +1,15 @@
 package ru.training.java.shop.client;
 
-public class Visitor {
+public class BaseVisitor {
 
     private String name;
     private int balance;
 
-    public Visitor(String name, int balance) {
+    public BaseVisitor() {
+
+    }
+
+    public BaseVisitor(String name, int balance) {
         this.name = name;
         this.balance = balance;
     }
