@@ -2,20 +2,10 @@ package ru.training.java.shop.service;
 
 public class Cashier extends BaseEmployee {
 
-    private String name;
     private int experience;
 
-    public Cashier(String name, int experience) {
-        this.name = name;
+    public Cashier(int experience) {
         this.experience = experience;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getExperience() {

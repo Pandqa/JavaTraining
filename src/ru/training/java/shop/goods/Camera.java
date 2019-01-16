@@ -1,31 +1,17 @@
 package ru.training.java.shop.goods;
 
-public class Camera extends BaseGoods {
+public class Camera extends ElectronicDevice {
 
-    private String name;
     private int pixels;
     private String color;
     private String lensName;
     private int lens;
-    private int price;
-    private String departament;
 
-    public Camera(String name, int pixels, String color, String lensName, int lens, int price, String departament) {
-        this.name = name;
+    public Camera(int pixels, String color, String lensName, int lens) {
         this.pixels = pixels;
         this.color = color;
         this.lensName = lensName;
         this.lens = lens;
-        this.price = price;
-        this.departament = departament;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getPixels() {
@@ -58,22 +44,6 @@ public class Camera extends BaseGoods {
 
     public void setLens(int lens) {
         this.lens = lens;
-    }
-
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public String getDepartament() {
-        return departament;
-    }
-
-    public void setDepartament(String departament) {
-        this.departament = departament;
     }
 
 }

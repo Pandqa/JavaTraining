@@ -1,35 +1,21 @@
 package ru.training.java.shop.goods;
 
-public class Phone extends BaseGoods {
+public class Phone extends ElectronicDevice {
 
-    private String name;
     private int ram;
     private int rom;
     private int diagonal;
     private int pixels;
     private String os;
-    private int price;
     private String color;
-    private String departament;
 
-    public Phone(String name, int ram, int rom, int diagonal, int pixels, String os, int price, String color, String departament) {
-        this.name = name;
+    public Phone(int ram, int rom, int diagonal, int pixels, String os, String color) {
         this.ram = ram;
         this.rom = rom;
         this.diagonal = diagonal;
         this.pixels = pixels;
         this.os = os;
-        this.price = price;
         this.color = color;
-        this.departament = departament;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getRam() {
@@ -72,36 +58,12 @@ public class Phone extends BaseGoods {
         this.os = os;
     }
 
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
     public String getColor() {
         return color;
     }
 
     public void setColor(String color) {
         this.color = color;
-    }
-
-    public String getDepartament() {
-        return departament;
-    }
-
-    public void setDepartament(String departament) {
-        this.departament = departament;
-    }
-
-    public void on() {
-
-    }
-
-    public void off() {
-
     }
 
 }
