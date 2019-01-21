@@ -22,12 +22,19 @@ public class BaseVisitor implements VisitorInterface {
         this.name = name;
     }
 
+    @Override
     public void buy() {
 
     }
 
+    @Override
     public void toReturn() {
 
+    }
+
+    @Override
+    public String name() {
+        return name;
     }
 
 }

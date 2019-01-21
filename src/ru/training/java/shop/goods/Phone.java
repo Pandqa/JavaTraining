@@ -1,5 +1,7 @@
 package ru.training.java.shop.goods;
 
+import ru.training.java.shop.interfaces.ElectronicDeviceInterface;
+
 public class Phone extends ElectronicDevice {
 
     private int ram;

@@ -19,8 +19,17 @@ public class BaseGoods implements GoodsInterface {
         this.company = company;
     }
 
+    public BaseGoods() {
+    }
+
+    @Override
     public double getPrice() {
         return price;
+    }
+
+    @Override
+    public boolean hasGuarantee() {
+        return false;
     }
 
     public void setPrice(double price) {
@@ -35,6 +44,7 @@ public class BaseGoods implements GoodsInterface {
         this.hasGuarantee = hasGuarantee;
     }
 
+    @Override
     public String getName() {
         return name;
     }
@@ -43,6 +53,7 @@ public class BaseGoods implements GoodsInterface {
         this.name = name;
     }
 
+    @Override
     public BaseDepartment getDepartment() {
         return department;
     }
@@ -51,6 +62,7 @@ public class BaseGoods implements GoodsInterface {
         this.department = department;
     }
 
+    @Override
     public String getCompany() {
         return company;
     }

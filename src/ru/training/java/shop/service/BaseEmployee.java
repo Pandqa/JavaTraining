@@ -1,12 +1,13 @@
 package ru.training.java.shop.service;
 
 import ru.training.java.shop.department.BaseDepartment;
+import ru.training.java.shop.interfaces.DepartmentInterface;
 import ru.training.java.shop.interfaces.EmployeeInterface;
 
 public class BaseEmployee implements EmployeeInterface {
 
     private String name;
-    private BaseDepartment department;
+    private DepartmentInterface department;
     private boolean free;
 
     public BaseEmployee(String name, BaseDepartment department, boolean free) {
@@ -15,6 +16,7 @@ public class BaseEmployee implements EmployeeInterface {
         this.free = free;
     }
 
+    @Override
     public String getName() {
         return name;
     }
@@ -23,14 +25,16 @@ public class BaseEmployee implements EmployeeInterface {
         this.name = name;
     }
 
-    public BaseDepartment getDepartment() {
+    @Override
+    public DepartmentInterface getDepartment() {
         return department;
     }
 
-    public void setDepartment(BaseDepartment department) {
+    public void setDepartment(DepartmentInterface department) {
         this.department = department;
     }
 
+    @Override
     public boolean isFree() {
         return free;
     }

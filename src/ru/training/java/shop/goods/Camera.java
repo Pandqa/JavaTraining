@@ -1,5 +1,7 @@
 package ru.training.java.shop.goods;
 
+import ru.training.java.shop.interfaces.ElectronicDeviceInterface;
+
 public class Camera extends ElectronicDevice {
 
     private int pixels;
