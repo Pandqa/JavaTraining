@@ -1,6 +1,8 @@
 package ru.training.java.shop.client;
 
-public class BaseVisitor {
+import ru.training.java.shop.interfaces.VisitorInterface;
+
+public class BaseVisitor implements VisitorInterface {
 
     private String name;
 

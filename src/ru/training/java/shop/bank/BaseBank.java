@@ -1,6 +1,8 @@
 package ru.training.java.shop.bank;
 
-public class BaseBank {
+import ru.training.java.shop.interfaces.BankInterface;
+
+public class BaseBank implements BankInterface {
 
     private String name;
     private String credrDescription;
